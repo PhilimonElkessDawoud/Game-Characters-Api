@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -34,8 +38,7 @@
               "RelativeToolTip": "VideoGameCharacterApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T13:24:20.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T13:24:20.437Z"
             },
             {
               "$type": "Document",
@@ -47,8 +50,7 @@
               "RelativeToolTip": "VideoGameCharacterApi\\Services\\VideoGameCharacterService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T13:23:39.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T13:23:39.122Z"
             },
             {
               "$type": "Document",
@@ -58,7 +60,7 @@
               "RelativeDocumentMoniker": "VideoGameCharacterApi\\Controllers\\VideoGameCharactersController.cs",
               "ToolTip": "D:\\Projects\\VideoGameCharacterApi\\VideoGameCharacterApi\\Controllers\\VideoGameCharactersController.cs",
               "RelativeToolTip": "VideoGameCharacterApi\\Controllers\\VideoGameCharactersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-06T12:56:27.307Z",
               "EditorCaption": ""
