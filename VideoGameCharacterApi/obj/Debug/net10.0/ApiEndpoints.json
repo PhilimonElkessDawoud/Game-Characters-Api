@@ -9,7 +9,33 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[VideoGameCharacterApi.Models.Character, VideoGameCharacterApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[VideoGameCharacterApi.Dtos.CharacterResponse, VideoGameCharacterApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VideoGameCharacterApi.Controllers.VideoGameCharactersController",
+    "Method": "AddCharacter",
+    "RelativePath": "api/VideoGameCharacters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "character",
+        "Type": "VideoGameCharacterApi.Dtos.CreateCharacterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VideoGameCharacterApi.Dtos.CharacterResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -35,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "VideoGameCharacterApi.Models.Character",
+        "Type": "VideoGameCharacterApi.Dtos.CharacterResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -44,6 +70,43 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "VideoGameCharacterApi.Controllers.VideoGameCharactersController",
+    "Method": "UpdateCharacter",
+    "RelativePath": "api/VideoGameCharacters/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "character",
+        "Type": "VideoGameCharacterApi.Dtos.UpdateCharacterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGameCharacterApi.Controllers.VideoGameCharactersController",
+    "Method": "DeleteCharacter",
+    "RelativePath": "api/VideoGameCharacters/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "VideoGameCharacterApi.Controllers.WeatherForecastController",
